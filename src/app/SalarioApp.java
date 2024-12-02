@@ -2,7 +2,7 @@ package app;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
+
 import entities.Salario;
 import java.util.Locale;
 

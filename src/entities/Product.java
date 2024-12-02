@@ -19,6 +19,6 @@ public class Product {
     }
 
     public String toString() {
-        return name;
+        return name + ", $" + String.format("%.2f", price) + ", " + quantity + " units, Total: $" + totalValueIStock();
     }
 }

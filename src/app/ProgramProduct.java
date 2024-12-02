@@ -4,7 +4,7 @@ import java.util.Scanner;
 import entities.Product;
 import java.util.Locale;
 
-public class Main {
+public class ProgramProduct {
 	
 	public static void main(String[] args) {
 
@@ -29,7 +29,15 @@ public class Main {
 		product.addProduct(quantity);
 
 		System.out.println();
-		System.out.println("Product data: " + product);
+		System.out.println("Updated data: " + product);
+
+		System.out.println();
+		System.out.println("Enter the number os products tobe removed from stock: ");
+		quantity = sc.nextInt();
+		product.RemoveProduct(quantity);
+
+		System.out.println();
+		System.out.println("Updated data: " + product);
 
 		sc.close();
 	}

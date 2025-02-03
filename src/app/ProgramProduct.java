@@ -11,14 +11,13 @@ public class ProgramProduct {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Product product = new Product();
 		System.out.println("Adicione as informações do produto: ");
 		System.out.println("Name: ");
-		product.name = sc.nextLine();
+		String name = sc.nextLine();
 		System.out.println("Price: ");
-		product.price = sc.nextDouble();
+		double price = sc.nextDouble();
 		System.out.println("Quantity: ");
-		product.quantity = sc.nextInt();
+		Product product= new Product(name, price);
 
 		System.out.println();
 		System.out.println("Product data: " + product);
@@ -32,7 +31,7 @@ public class ProgramProduct {
 		System.out.println("Updated data: " + product);
 
 		System.out.println();
-		System.out.println("Enter the number os products tobe removed from stock: ");
+		System.out.println("Enter the number os products to be removed from stock: ");
 		quantity = sc.nextInt();
 		product.RemoveProduct(quantity);
 

@@ -19,6 +19,12 @@ public class ProgramProduct {
 		System.out.println("Quantity: ");
 		Product product= new Product(name, price);
 
+		product.setName("Computador");
+		System.out.println("Updated name: " + product.getName());
+		product.setPrice(1200);
+		System.out.println("Updates price: " + product.getPrice());
+		System.out.println("Updated quantity: " + product.getQuantity());
+
 		System.out.println();
 		System.out.println("Product data: " + product);
 
@@ -31,7 +37,7 @@ public class ProgramProduct {
 		System.out.println("Updated data: " + product);
 
 		System.out.println();
-		System.out.println("Enter the number os products to be removed from stock: ");
+		System.out.println("Enter the number os products to  be removed from stock: ");
 		quantity = sc.nextInt();
 		product.RemoveProduct(quantity);
 

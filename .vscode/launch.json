@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BancoApp",
+            "request": "launch",
+            "mainClass": "app.BancoApp",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "app.Program",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
+            "name": "ProgramProduct",
+            "request": "launch",
+            "mainClass": "app.ProgramProduct",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
+            "name": "RetanguloApp",
+            "request": "launch",
+            "mainClass": "app.RetanguloApp",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
+            "name": "SalarioApp",
+            "request": "launch",
+            "mainClass": "app.SalarioApp",
+            "projectName": "Java_a525ae46"
+        }
+    ]
+}

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlturaApp",
+            "request": "launch",
+            "mainClass": "app.AlturaApp",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

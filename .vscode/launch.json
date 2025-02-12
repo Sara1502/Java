@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "negativoApp",
+            "request": "launch",
+            "mainClass": "app.negativoApp",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
             "name": "AlturaApp",
             "request": "launch",
             "mainClass": "app.AlturaApp",

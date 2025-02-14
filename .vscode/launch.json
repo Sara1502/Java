@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "soma_vetor",
+            "request": "launch",
+            "mainClass": "app.soma_vetor",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
             "name": "negativoApp",
             "request": "launch",
             "mainClass": "app.negativoApp",

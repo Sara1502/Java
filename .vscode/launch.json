@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlturaEx",
+            "request": "launch",
+            "mainClass": "app.AlturaEx",
+            "projectName": "Java_a525ae46"
+        },
+        {
+            "type": "java",
             "name": "soma_vetor",
             "request": "launch",
             "mainClass": "app.soma_vetor",
